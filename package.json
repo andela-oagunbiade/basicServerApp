@@ -1,0 +1,23 @@
+{
+  "name": "basicserverapp",
+  "version": "1.0.0",
+  "description": "basic nodejs bootstrap app with sequelize ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-oagunbiade/basicServerApp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize"
+  ],
+  "author": "Ore Agunbiade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-oagunbiade/basicServerApp/issues"
+  },
+  "homepage": "https://github.com/andela-oagunbiade/basicServerApp#readme"
+}
