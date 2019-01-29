@@ -10,7 +10,7 @@ const config = require('../config/config')[env]
 
 const db = {}
 
-const sequelize = new Sequelize(config.url, config)
+const sequelize = new Sequelize(config.url)
 
 fs
   .readdirSync(__dirname)

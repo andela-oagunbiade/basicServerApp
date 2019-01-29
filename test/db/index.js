@@ -1,12 +1,10 @@
-// const { expect } = require('chai')
-
-const sequelize = require('../../db/index')
+const db = require('../../db/models/index')
 
 describe('Database Setup', () => {
   it('should set up a database connection successfully', (done) => {
-    sequelize
+    db.sequelize
       .authenticate()
-      .then(() => {
+      .then((surprise) => {
         console.log('Connection has been established successfully.')
         done()
       })
