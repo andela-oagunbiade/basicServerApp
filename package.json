@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/andela-oagunbiade/basicServerApp/issues"
   },
-  "homepage": "https://github.com/andela-oagunbiade/basicServerApp#readme"
+  "homepage": "https://github.com/andela-oagunbiade/basicServerApp#readme",
+  "dependencies": {
+    "sequelize": "^4.42.0"
+  }
 }
